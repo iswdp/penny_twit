@@ -57,7 +57,7 @@ for i in data['Date']:
     date_list.append(dateutil.parser.parse(i))
 data['Date'] = date_list
 
-stream = MyStreamer(app_key = 'JAwwpso9dTLGOCk80uBSpZpzf', app_secret = 'cif8ZMIUHqMvv6SLf2wTRhJ5vwd7fK2sokaIZkdtPxkyV7XPH3', oauth_token='55765343-140U0dHF4XyItd1vyVLcxoTRC2mgr5ivHO8Ggdr54', oauth_token_secret='2SG13ejh4MbQTjzr4z4YuwIFd2493L2v94uIRgtYomuYk')
+
 stream.symbols = symbols
 stream.data = data
 stream.counter = 0
